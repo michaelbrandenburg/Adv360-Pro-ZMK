@@ -97,3 +97,45 @@ dvp_at_caret: dvp_at_caret {
     bindings = <&kp AT>, <&kp CARET>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
+dvp_kp_n1_a: dvp_kp_n1_a {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N1>, <&kp A>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+dvp_kp_n2_b: dvp_kp_n2_b {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N2>, <&kp B>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+dvp_kp_n3_c: dvp_kp_n3_c {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N3>, <&kp C>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+dvp_kp_n4_d: dvp_kp_n4_d {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N4>, <&kp D>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+dvp_kp_n5_e: dvp_kp_n5_e {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N5>, <&kp E>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+dvp_kp_n6_f: dvp_kp_n6_f {
+    compatible = "zmk,behavior-mod-morph";
+    label = "dvp_at_caret";
+    #binding-cells = <0>;
+    bindings = <&kp KP_N6>, <&kp F>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
