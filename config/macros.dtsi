@@ -1,128 +1,114 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  dvp_dollar_tilde: dvp_dollar_tilde {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_dollar_tilde";
-    #binding-cells = <0>;
-    bindings = <&kp DOLLAR>, <&kp TILDE>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_ampersand_percent: dvp_ampersand_percent {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_ampersand_percent";
-    #binding-cells = <0>;
-    bindings = <&kp AMPERSAND>, <&kp PERCENT>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_left_bracket_n7: dvp_left_bracket_n7 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_left_bracket_n7";
-    #binding-cells = <0>;
-    bindings = <&kp LEFT_BRACKET>, <&kp N7>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_left_brace_n5: dvp_left_brace_n5 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_left_brace_n5";
-    #binding-cells = <0>;
-    bindings = <&kp LEFT_BRACE>, <&kp N5>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_right_brace_n3: dvp_right_brace_n3 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_right_brace_n3";
-    #binding-cells = <0>;
-    bindings = <&kp RIGHT_BRACE>, <&kp N3>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_left_parenthesis_n1: dvp_left_parenthesis_n1 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_left_parenthesis_n1";
-    #binding-cells = <0>;
-    bindings = <&kp LEFT_PARENTHESIS>, <&kp N1>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_equal_n9: dvp_equal_n9 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_equal_n9";
-    #binding-cells = <0>;
-    bindings = <&kp EQUAL>, <&kp N9>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_asterisk_n0: dvp_asterisk_n0 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_asterisk_n0";
-    #binding-cells = <0>;
-    bindings = <&kp ASTERISK>, <&kp N0>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_right_parenthesis_n2: dvp_right_parenthesis_n2 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_right_parenthesis_n2";
-    #binding-cells = <0>;
-    bindings = <&kp RIGHT_PARENTHESIS>, <&kp N2>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_plus_n4: dvp_plus_n4 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_plus_n4";
-    #binding-cells = <0>;
-    bindings = <&kp PLUS>, <&kp N4>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_right_bracket_n6: dvp_right_bracket_n6 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_right_bracket_n6";
-    #binding-cells = <0>;
-    bindings = <&kp RIGHT_BRACKET>, <&kp N6>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_exclamation_n8: dvp_exclamation_n8 {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_exclamation_n8";
-    #binding-cells = <0>;
-    bindings = <&kp EXCLAMATION>, <&kp N8>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_hash_grave: dvp_hash_grave {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_hash_grave";
-    #binding-cells = <0>;
-    bindings = <&kp HASH>, <&kp GRAVE>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
-  dvp_at_caret: dvp_at_caret {
-    compatible = "zmk,behavior-mod-morph";
-    label = "dvp_at_caret";
-    #binding-cells = <0>;
-    bindings = <&kp AT>, <&kp CARET>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-  };
+macro_quotes: macro_quotes{
+compatible = "zmk,behavior-macro";
+label = "macro_quotes";
+#binding-cells = <0>;
+bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+};
+macro_dquotes: macro_dquotes{
+compatible = "zmk,behavior-macro";
+label = "macro_dquotes";
+#binding-cells = <0>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+};
+macro_braces: macro_braces{
+compatible = "zmk,behavior-macro";
+label = "macro_braces";
+#binding-cells = <0>;
+bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+};
+macro_parens: macro_parens{
+compatible = "zmk,behavior-macro";
+label = "macro_parens";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+};
+macro_brackets: macro_brackets{
+compatible = "zmk,behavior-macro";
+label = "macro_brackets";
+#binding-cells = <0>;
+bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro__dollar_tilde: macro__dollar_tilde{
+compatible = "zmk,behavior-macro";
+label = "macro__dollar_tilde";
+#binding-cells = <0>;
+bindings = <&kp DOLLAR>, <&kp TILDE>;
+};
+macro__ampersand_percent: macro__ampersand_percent{
+compatible = "zmk,behavior-macro";
+label = "macro__ampersand_percent";
+#binding-cells = <0>;
+bindings = <&kp AMPERSAND>, <&kp PERCENT>;
+};
+macro__left_bracket_n7: macro__left_bracket_n7{
+compatible = "zmk,behavior-macro";
+label = "macro__left_bracket_n7";
+#binding-cells = <0>;
+bindings = <&kp LEFT_BRACKET>, <&kp N7>;
+};
+macro__left_brace_n5: macro__left_brace_n5{
+compatible = "zmk,behavior-macro";
+label = "macro__left_brace_n5";
+#binding-cells = <0>;
+bindings = <&kp LEFT_BRACE>, <&kp N5>;
+};
+macro__right_brace_n3: macro__right_brace_n3{
+compatible = "zmk,behavior-macro";
+label = "macro__right_brace_n3";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_BRACE>, <&kp N3>;
+};
+macro__left_parenthesis_n1: macro__left_parenthesis_n1{
+compatible = "zmk,behavior-macro";
+label = "macro__left_parenthesis_n1";
+#binding-cells = <0>;
+bindings = <&kp LEFT_PARENTHESIS>, <&kp N1>;
+};
+macro__equal_n9: macro__equal_n9{
+compatible = "zmk,behavior-macro";
+label = "macro__equal_n9";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp N9>;
+};
+macro__asterisk_n0: macro__asterisk_n0{
+compatible = "zmk,behavior-macro";
+label = "macro__asterisk_n0";
+#binding-cells = <0>;
+bindings = <&kp ASTERISK>, <&kp N0>;
+};
+macro__right_parenthesis_n2: macro__right_parenthesis_n2{
+compatible = "zmk,behavior-macro";
+label = "macro__right_parenthesis_n2";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_PARENTHESIS>, <&kp N2>;
+};
+macro__plus_n4: macro__plus_n4{
+compatible = "zmk,behavior-macro";
+label = "macro__plus_n4";
+#binding-cells = <0>;
+bindings = <&kp PLUS>, <&kp N4>;
+};
+macro__right_bracket_n6: macro__right_bracket_n6{
+compatible = "zmk,behavior-macro";
+label = "macro__right_bracket_n6";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_BRACKET>, <&kp N6>;
+};
+macro__exclamation_n8: macro__exclamation_n8{
+compatible = "zmk,behavior-macro";
+label = "macro__exclamation_n8";
+#binding-cells = <0>;
+bindings = <&kp EXCLAMATION>, <&kp N8>;
+};
+macro__hash_grave: macro__hash_grave{
+compatible = "zmk,behavior-macro";
+label = "macro__hash_grave";
+#binding-cells = <0>;
+bindings = <&kp HASH>, <&kp GRAVE>;
+};
+macro__at_caret: macro__at_caret{
+compatible = "zmk,behavior-macro";
+label = "macro__at_caret";
+#binding-cells = <0>;
+bindings = <&kp AT>, <&kp CARET>;
+};
