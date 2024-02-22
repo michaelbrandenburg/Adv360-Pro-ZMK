@@ -118,5 +118,53 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n1_a",
+		"name": "&dvp_kp_n1_a",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n2_b",
+		"name": "&dvp_kp_n2_b",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n3_c",
+		"name": "&dvp_kp_n3_c",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n4_d",
+		"name": "&dvp_kp_n4_d",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n5_e",
+		"name": "&dvp_kp_n5_e",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_kp_n6_f",
+		"name": "&dvp_kp_n6_f",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
